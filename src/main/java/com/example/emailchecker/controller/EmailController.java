@@ -1,6 +1,6 @@
 package com.example.emailchecker.controller;
 
-import com.example.emailchecker.models.dio.User;
+import com.example.emailchecker.model.User;
 import com.example.emailchecker.service.rabbitmq.EmailProducer;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;

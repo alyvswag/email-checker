@@ -1,4 +1,4 @@
-package com.example.emailchecker.models.dio;
+package com.example.emailchecker.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
