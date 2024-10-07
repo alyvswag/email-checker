@@ -71,14 +71,13 @@ public class EmailServiceImpl implements EmailService {
             } else {
                 return email + " addresi movcuddur";
             }
-            return email + " addresi movcuddur";
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             inbox.close(false);
             store.close();
         }
-        return null;
+        return email + " addresi movcuddur";
     }
 
     private String getContent(Message message) throws IOException, MessagingException {

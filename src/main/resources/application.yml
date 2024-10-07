@@ -26,8 +26,8 @@ spring:
           auth: true
           starttls:
             enable: true
-    username: //1 sexsi gmail
-    password: //2 hemin gmailin uygulama acari
+    username:
+    password:
     port: 587
 
   rabbitmq:
