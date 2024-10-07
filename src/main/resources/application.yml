@@ -1,0 +1,39 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: EmailChecker
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: //1 sexsi gmail
+    password: //2 hemin gmailin uygulama acari
+    port: 587
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
